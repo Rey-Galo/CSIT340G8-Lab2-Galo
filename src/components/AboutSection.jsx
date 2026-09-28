@@ -1,4 +1,5 @@
-import SectionHeading from './SectionHeading'
+import SectionHeading from "./SectionHeading";
+import Fact from "./Fact";
 
 function AboutSection() {
   return (
@@ -13,22 +14,10 @@ function AboutSection() {
         favorite part is the moment something finally runs.
       </p>
       <dl class="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
-        <div>
-          <dt class="text-sm text-stone-500">Course</dt>
-          <dd class="mt-1 font-medium">BS Information Technology</dd>
-        </div>
-        <div>
-          <dt class="text-sm text-stone-500">Year level</dt>
-          <dd class="mt-1 font-medium">Third year</dd>
-        </div>
-        <div>
-          <dt class="text-sm text-stone-500">School</dt>
-          <dd class="mt-1 font-medium">CIT-U</dd>
-        </div>
-        <div>
-          <dt class="text-sm text-stone-500">Based in</dt>
-          <dd class="mt-1 font-medium">Cebu City</dd>
-        </div>
+        <Fact label="Course" value="BS Information Technology" />
+        <Fact label="Year level" value="Third year" />
+        <Fact label="School" value="CIT-U" />
+        <Fact label="Based in" value="Cebu City" />
       </dl>
     </section>
   );
