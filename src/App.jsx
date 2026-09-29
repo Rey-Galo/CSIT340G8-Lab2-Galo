@@ -5,6 +5,7 @@ import SkillsSection from "./components/SkillsSection";
 import ProjectsSection from "./components/ProjectsSection";
 import ExperienceSection from "./components/ExperienceSection";
 import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -12,7 +13,6 @@ function App() {
     <>
       <Navbar />
       <Hero />
-
       <main>
         <AboutSection />
         <SkillsSection />
@@ -20,6 +20,7 @@ function App() {
         <ExperienceSection />
         <ContactSection />
       </main>
+      <Footer />
     </>
   );
 }
