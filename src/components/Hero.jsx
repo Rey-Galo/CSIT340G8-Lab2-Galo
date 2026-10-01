@@ -2,10 +2,10 @@ function Hero() {
   return (
     <header id="top" class="max-w-4xl mx-auto px-6 pt-20 pb-16 scroll-mt-16">
       <p class="text-sm font-medium text-stone-500">Hi, I'm</p>
-      <h1 class="mt-2 text-5xl font-semibold tracking-tight">Juan dela Cruz</h1>
+      <h1 class="mt-2 text-5xl font-semibold tracking-tight">Rey Galo</h1>
       <p class="mt-4 max-w-xl text-lg leading-relaxed text-stone-600">
-        A third year IT student who builds small web apps for the people around
-        me.
+        A Third-year BSIT student building practical web and desktop
+        applications for the people around me.
       </p>
       <div class="mt-8 flex gap-3">
         <a

@@ -19,18 +19,18 @@ function ExperienceSection() {
         </li>
         <li class="pl-6">
           <TimelineItem
-            period="2025"
-            title="Student Assistant"
-            place="CCS Computer Laboratory"
-            description="Set up lab machines and helped students with software installs."
+            period="2023 – 2024"
+            title="BS Computer Science"
+            place="Cebu Institute of Technology – University"
+            description="I began my studies in Computer Science before shifting to Information Technology."
           />
         </li>
         <li class="pl-6">
           <TimelineItem
-            period="2022 – 2024"
-            title="Senior High School, ICT Strand"
-            place="Talisay City National High School"
-            description="Built my first web page and got hooked."
+            period="2021 – 2023"
+            title="Senior High School, GAS Strand"
+            place="University of Cebu – senior High School"
+            description="Started learning programming in python, HTML, and CSS. Learned the basics of web development and programming."
           />
         </li>
       </ol>
@@ -39,5 +39,3 @@ function ExperienceSection() {
 }
 
 export default ExperienceSection;
-
-         

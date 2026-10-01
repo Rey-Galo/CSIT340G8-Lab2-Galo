@@ -1,6 +1,5 @@
 import ProjectCard from "./ProjectCard";
 
-
 function ProjectsSection() {
   return (
     <section
@@ -15,28 +14,28 @@ function ProjectsSection() {
           title="About Me in React"
           description="My first React project, rebuilt from a plain HTML page."
           tech={["React", "Tailwind CSS"]}
-          link="https://github.com/juandelacruz/CSIT340-Lab1-DelaCruz"
+          link="https://github.com/Rey-Galo/CSIT340-Lab1-GALO"
         />
         <ProjectCard
-          year="2025"
-          title="Canteen Queue"
-          description="A page that shows how long the canteen line is so students can decide when to go."
-          tech={["HTML", "CSS", "JavaScript"]}
-          link="https://github.com/juandelacruz/canteen-queue"
+          year="2026"
+          title="Fixel"
+          description="A floating AI overlay that helps you read and fix code — from a screen region or pasted text. Runs 100% offline using a local LLM via Ollama — no API keys, no cost, no rate limits, no internet required."
+          tech={["Python", "Ollama"]}
+          link="https://github.com/Rey-Galo/Fixel"
         />
         <ProjectCard
-          year="2025"
-          title="Clinic Records"
-          description="A desktop app for our database class that keeps visit records for a small clinic."
+          year="2026"
+          title="Dormitory Management System"
+          description="A desktop application for managing a dormitory or boarding house: rooms, tenants, room assignments, and monthly rent payments. Built with JavaFX 21 (FXML UI) on Java 17, with a MySQL / MariaDB backend (XAMPP-friendly) accessed through JDBC."
           tech={["Java", "MySQL"]}
-          link="https://github.com/juandelacruz/clinic-records"
+          link="https://github.com/Rey-Galo/dorm-management-system"
         />
         <ProjectCard
-          year="2024"
-          title="Org Event Page"
-          description="A one-page site for our org's freshman orientation, with the schedule and venue."
-          tech={["HTML", "Bootstrap"]}
-          link="https://github.com/juandelacruz/org-event-page"
+          year="2026"
+          title="Veterinary Clinic Management System"
+          description="A comprehensive Java-based veterinary clinic management system demonstrating core OOP principles and professional software development practices."
+          tech={["Java", "File I/O"]}
+          link="https://github.com/Rey-Galo/Veterinary_Clinic_Management_System"
         />
       </div>
     </section>

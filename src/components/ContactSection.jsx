@@ -12,18 +12,18 @@ function ContactSection() {
       <ul class="mt-8 space-y-3">
         <ContactLink
           label="Email"
-          href="mailto:juan.delacruz@cit.edu"
-          text="juan.delacruz@cit.edu"
+          href="mailto:reygalo29@gmail.com"
+          text="reygalo29@gmail.com"
         />
         <ContactLink
           label="GitHub"
-          href="https://github.com/juandelacruz"
-          text="github.com/juandelacruz"
+          href="https://github.com/Rey-Galo"
+          text="github.com/Rey-Galo"
         />
         <ContactLink
           label="LinkedIn"
-          href="https://linkedin.com/in/juandelacruz"
-          text="linkedin.com/in/juandelacruz"
+          href="https://www.linkedin.com/in/galo-rey-741b93314/"
+          text="linkedin.com/in/galo-rey-741b93314/"
         />
       </ul>
     </section>

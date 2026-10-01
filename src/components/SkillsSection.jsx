@@ -12,11 +12,10 @@ function SkillsSection() {
         <div>
           <h3 class="text-sm font-medium text-stone-500">Languages</h3>
           <div class="mt-3 flex flex-wrap gap-2">
-            <SkillTag name="HTML" />
-            <SkillTag name="CSS" />
+            <SkillTag name="HTML/CSS" />
+            <SkillTag name="SQL" />
             <SkillTag name="JavaScript" />
             <SkillTag name="Java" />
-            <SkillTag name="Python" />
           </div>
         </div>
         <div>
@@ -24,7 +23,6 @@ function SkillsSection() {
           <div class="mt-3 flex flex-wrap gap-2">
             <SkillTag name="React" />
             <SkillTag name="Tailwind CSS" />
-            <SkillTag name="Bootstrap" />
             <SkillTag name="Spring Boot" />
           </div>
         </div>
@@ -32,10 +30,9 @@ function SkillsSection() {
           <h3 class="text-sm font-medium text-stone-500">Tools</h3>
           <div class="mt-3 flex flex-wrap gap-2">
             <SkillTag name="Git" />
-            <SkillTag name="GitHub" />
             <SkillTag name="VS Code" />
             <SkillTag name="Postman" />
-            <SkillTag name="Figma" />
+            <SkillTag name="Claude Code" />
           </div>
         </div>
       </div>
