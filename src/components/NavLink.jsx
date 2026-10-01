@@ -1,9 +1,10 @@
 
 
-function NavLink({ href, children }) {
+
+function NavLink({ href, label }) {
   return (
-    <a href={href} class="hover:text-stone-900">
-      {children}
+    <a href={href} className="hover:text-stone-900">
+      {label}
     </a>
   );
 }

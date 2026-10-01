@@ -1,14 +1,14 @@
 import ProjectCard from "./ProjectCard";
+import SectionHeading from "./SectionHeading";
 
 function ProjectsSection() {
   return (
     <section
       id="projects"
-      class="max-w-4xl mx-auto px-6 py-16 border-t border-stone-200 scroll-mt-16"
+      className="max-w-4xl mx-auto px-6 py-16 border-t border-stone-200 scroll-mt-16"
     >
-      <h2 class="text-2xl font-semibold tracking-tight">Projects</h2>
-      <p class="mt-2 text-stone-600">Things I have built.</p>
-      <div class="mt-8 grid gap-6 sm:grid-cols-2">
+      <SectionHeading title="Projects" subtitle="Things I have built." />
+      <div className="mt-8 grid gap-6 sm:grid-cols-2">
         <ProjectCard
           year="2026"
           title="About Me in React"
